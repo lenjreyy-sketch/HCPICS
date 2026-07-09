@@ -1,0 +1,66 @@
+# Build outputs
+build/
+Debug/
+RTE/
+*.elf
+*.bin
+*.hex
+*.axf
+*.map
+*.o
+*.obj
+*.out
+*.dep
+*.d
+*.i
+*.pdb
+*.idb
+*.ilk
+*.sconsign.dblite
+
+# Local IDE and debugger state
+.settings/
+.vscode/
+.vs/
+DebugConfig/
+settings/
+board/CubeMX_Config/.mxproject
+*.uvoptx
+*.uvguix*
+*.vcxproj.user
+JLinkLog.txt
+JLinkSettings.ini
+
+# Local deployment credentials
+applications/hcics_config.h
+
+# Local notes and rendered project descriptions
+*.md
+
+# Python/cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# RT-Thread package cache/database
+packages/packages.dbsqlite
+packages/pkgs.json
+packages/pkgs_error.json
+
+# Optional ART-Pi middleware not used by the HCICS release build
+libraries/audio/
+libraries/ftp_lib/
+libraries/Persimmon/
+libraries/qemu/
+libraries/samples/
+libraries/touchgfx_lib/
+
+# Editor and OS files
+*~
+*.bak
+*.tmp
+*.dll
+.DS_Store*
+GPATH
+GRTAGS
+GTAGS
